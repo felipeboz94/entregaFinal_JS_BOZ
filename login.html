@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador e-commerce</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class = "bodyInputs">
+    <h1> ¡Bienvenido al e-Commerce!</h1>
+    <section class = "seccionInputs">
+        <article class = 'articleInputs' id = 'articleLogin'>
+            <div>
+                <img src="\img\candado.svg" alt="Candado de bloqueo">
+                <h2>Login</h2>
+            </div>
+            <div class = 'formulario'>
+            <p>
+                Ingrese aquí:
+            </p>
+            </div>
+            <form action="">
+            <div class = 'formulario' id = 'divUser'>
+                <label for = 'inputUser'>
+                    Usuario:
+                </label>
+                <input id = 'inputUser' class = 'input' type="text">
+            </div>
+            <div class = 'formulario' id = 'divPass'>
+                <label for = 'inputPass'>
+                    Contraseña:
+                </label>
+                <input id = 'inputPass' class = 'input' type="password">
+            </div>
+        </form>
+            <div class = 'divBotonera' id = 'divBotoneraLogin'>
+                <button id = 'botEntrar'>Entrar</button>
+                <button id = 'botCancelar'>Cancelar</button>
+            </div>
+        </article>
+        <article id = 'articleMsg'>
+            <div>
+                <h3 class = 'msj'></h3>
+            </div>
+        </article>
+
+
+    </section> 
+    <article id = 'articleAFormulario'>
+        <a href="pages/formulario.html">
+             ¿No tiene usuario? Ingrese aquí para crearlo</p>
+        </a>
+    </article>
+    <script src="//cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script type = 'module' src = 'js/login.js'></script>
+    
+</body>
+
+</html>

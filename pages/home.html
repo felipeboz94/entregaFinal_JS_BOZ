@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador e-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class = 'encabezadoNav'>
+    <nav class="navbar navbar-expand-lg" id = 'grid-area-nav'>
+        <div class="container-fluid">
+          <!--<a class="navbar-brand" href="#">Navbar</a>-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a id = "menuCarrito" class="nav-link" href="compras.html"> Tu compra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Perfil</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id = 'divBotoneraCerrarSesion'>
+        <div id = 'infUsuario'></div>
+        <button id = 'botCerrarSesion'>Cerrar sesión</button>
+        </div>
+      </div>
+      <div id = "centra">
+      <h1 id = 'bienvenida'>¡Bienvenido al e-Commerce!</h1>
+      <div class = "contenedorCards" id = "contenedorCards">
+      </div>
+    </div>
+      <footer>
+        <p id = 'duracionLogin'>  </p>
+      </footer>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src = '../js/home.js '></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador e-commerce</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body  class = "bodyInputs">
+    <h1>¡Bienvenido al e-Commerce!</h1>
+    <section class = 'seccionInputs'>
+        <article  class = 'articleInputs'>
+            <div>
+                <h2 class = 'msj'>
+                    Complete el formulario para su registro
+                </h2>
+            </div>
+            <form action="">
+                <div class = 'formulario'>
+
+                    <label for="inputNombre">
+                        Nombre
+                    </label>
+                    <input class = 'input' id = 'inputNombre' type="text">
+                </div>
+                <div class = 'formulario'>
+                    <label for="inputApellido">
+                        Apellido
+                    </label>
+                    <input class = 'input' id = 'inputApellido' type="text">
+                </div>
+                <div class = 'formulario'>
+                    <label for="inputMail">
+                        Correo
+                    </label>
+                    <input class = 'input' id = 'inputMail' type="email">
+                </div> 
+                <div class = 'formulario'>
+                    <label for="inputUser">
+                        Usuario
+                    </label>
+                    <input class = 'input' id = 'inputUser' type="text">
+                </div> 
+                <div class = 'formulario'>
+                    <label for = 'inputPass'>
+                        Contraseña
+                    </label>
+                    <input class = 'input' id = 'inputPass' type="password">
+                </div> 
+            </form>
+            
+                <div class = 'divBotonera'>
+                    <button id = 'botGuardar'>Guardar</button>
+                    <button id = 'botCancelar'>Cancelar</button>  
+                </div>   
+        </article>
+    </section>
+
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type = 'module' src = '../js/formulario.js'></script>
+
+</body>
+
+</html>

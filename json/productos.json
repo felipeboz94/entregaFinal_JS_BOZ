@@ -1,0 +1,55 @@
+[
+    {    
+        "id": 0,
+        "tipo": "Monitor",
+        "marca": "Samsung",
+        "modelo":"F24T35",
+        "detalle": "LED 24 pulgadas ",
+        "carpetaImagen":"\\img\\samsung_f34t35\\",
+        "precio" : 54599,
+        "stockDisponible" : 2899
+    },
+    {    
+        "id": 1,
+        "tipo": "Mouse",
+        "marca": "Logitech",
+        "modelo":"Lift",
+        "detalle": "Inalámbrico Ergónomico Vertical",
+        "carpetaImagen":"\\img\\logitech_lift_vertical\\",
+        "precio" : 13858,
+        "stockDisponible" : 3
+    },    
+    {
+        
+        "id": 2,
+        "tipo": "Teclado",
+        "marca": "Logitech",
+        "modelo":"MX Mechanical",
+        "detalle": "Inalámbrico Retroiluminado",
+        "carpetaImagen":"\\img\\logitech_mx_mechanical\\",
+        "precio" : 39990,
+        "stockDisponible" : 23
+    },    
+    {
+        
+        "id": 3,
+        "tipo": "PC escritorio",
+        "marca": "Lenovo",
+        "modelo":"ThinkCentre M75s",
+        "detalle": "2da Gen Black ",
+        "carpetaImagen":"\\img\\thinkcentre_m75s\\",
+        "precio" : 188000,
+        "stockDisponible" : 12
+    },    
+    {
+        
+        "id": 4,
+        "tipo": "Mousepad",
+        "marca": "Logitech",
+        "modelo":"Desk Mat",
+        "detalle": "700x300 Gris ",
+        "carpetaImagen":"\\img\\logitech_deskmat\\",
+        "precio" : 3700,
+        "stockDisponible" : 11
+    }
+]

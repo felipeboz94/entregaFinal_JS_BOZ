@@ -1,0 +1,30 @@
+//navBar
+
+//nesting
+/*
+nav{
+    background-color: $color_6;
+    padding: 6px 20px;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:15;
+    ul{
+        display: inline-block;
+            li{
+                list-style: none;
+                display: inline-block;
+                padding: 6px;
+                a{
+                    color: $color_4;
+                    font-weight:$fontWeight-2;
+                    font-size: $fSize_2;
+                    &:hover{
+                        color:$color_3;
+                        font-weight: $fontWeight-1;
+                        font-size: $fSize_2;
+                    }
+                }
+            }
+    }
+}*/

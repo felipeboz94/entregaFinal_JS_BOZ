@@ -1,0 +1,23 @@
+[
+    {
+        
+            "nombre": "John",
+            "apellido": "Doe",
+            "mail": "prueba2@gmail.com",
+            "usuario":"john",
+            "pass":"456",
+            "estado":0,
+            "intentos":1
+        
+    },
+    {
+            "nombre": "Marie",
+            "apellido": "Doe",
+            "mail": "prueba3@gmail.com",
+            "usuario":"marie",
+            "pass":"789",
+            "estado":1,
+            "intentos":0
+        
+    }  
+]
